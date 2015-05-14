@@ -15,7 +15,7 @@ var addItem = function(item){
 
 var removeItem = function(index){
   _store.list.splice(index, 1);
-}
+};
 
 //EventEmitter.prototype gives us methods .on and .emit
 var todoStore = objectAssign({}, EventEmitter.prototype, {

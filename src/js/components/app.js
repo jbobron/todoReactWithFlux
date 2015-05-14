@@ -20,10 +20,6 @@ var APP = React.createClass({
   },
   addTodoItem: function(item){
     todoActions.addItem(item);
-    // this.state.items.push(item)
-    // this.setState({
-    //   items: this.state.items
-    // })
   },
   handleRemoveItem: function(index){
     todoActions.removeItem(index);
